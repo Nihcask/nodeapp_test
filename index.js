@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
 app.get('/hello', function (req, res) {
     res.send('{ "response": "Hello World" }');
 });
-app.get('/ready', function (req, res) {
+app.get('/hi', function (req, res) {
     res.send('{ "response": " Great!, It works!" }');
 });
 app.listen(process.env.PORT || 3000);
